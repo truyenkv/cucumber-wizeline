@@ -1,0 +1,317 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13719349670,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Tell us about yoursefl",
+            "match": {
+              "location": "AboutYourSelfPageSteps.open_the_tell_us_about_yoursefl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Submit the form successfull",
+        "description": "",
+        "id": "tell-us-about-yoursefl;submit-the-form-successfull",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 692352062,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Fist Name is \"Truyen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Truyen",
+                  "offset": 24
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.enter_the_fist_name_is_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128312968,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the Last Name is \"Kieu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kieu",
+                  "offset": 24
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.enter_the_last_name_is_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122908414,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the email is \"kieuvantruyen21.3dfish@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kieuvantruyen21.3dfish@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.enter_the_valid_email_is_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1649369532,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select the Date of birth is \"May\", \"25\" and \"1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "May",
+                  "offset": 29
+                },
+                {
+                  "val": "25",
+                  "offset": 36
+                },
+                {
+                  "val": "1992",
+                  "offset": 45
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.select_the_date_of_birth_is_something_something_and_something(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478045167,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the Languages is \"VietNamese\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VietNamese",
+                  "offset": 24
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.enter_the_languages_is_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170588659,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click Next Location button",
+            "match": {
+              "location": "AboutYourSelfPageSteps.i_click_next_location_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41464785,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I can see the next screen is \"Add your address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add your address",
+                  "offset": 30
+                }
+              ],
+              "location": "YourAdressPageSteps.i_can_see_the_next_screen_is_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3622131557,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Tell us about yoursefl",
+            "match": {
+              "location": "AboutYourSelfPageSteps.open_the_tell_us_about_yoursefl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verify invalid email format",
+        "description": "",
+        "id": "tell-us-about-yoursefl;verify-invalid-email-format;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2152493831,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the email is \"truyen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "truyen",
+                  "offset": 20
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.enter_the_valid_email_is_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560967958,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see the \"Enter valid email\" displays",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter valid email",
+                  "offset": 11
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.i_see_the_something_displays(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3004607602,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Tell us about yoursefl",
+            "match": {
+              "location": "AboutYourSelfPageSteps.open_the_tell_us_about_yoursefl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify invalid email format",
+        "description": "",
+        "id": "tell-us-about-yoursefl;verify-invalid-email-format;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1389228971,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the email is \"truyen@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "truyen@123",
+                  "offset": 20
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.enter_the_valid_email_is_something(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 564000674,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see the \"Enter valid email\" displays",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter valid email",
+                  "offset": 11
+                }
+              ],
+              "location": "AboutYourSelfPageSteps.i_see_the_something_displays(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tell us about yoursefl",
+    "description": "",
+    "id": "tell-us-about-yoursefl",
+    "keyword": "Feature",
+    "uri": "Featear01.feature"
+  }
+]
